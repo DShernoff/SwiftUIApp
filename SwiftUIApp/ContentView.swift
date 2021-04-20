@@ -7,10 +7,23 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        ZStack{
+            Color(.systemBlue)
+                .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+        
+            VStack{
+        
+        Text("Hello!")
+            .bold()
+            .accentColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+             
+                
+            }
+        }
     }
 }
 
